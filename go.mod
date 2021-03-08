@@ -1,4 +1,4 @@
-module github.com/secureworks/tdr-sdk-go
+module github.com/secureworks/taegis-sdk-go
 
 go 1.13
 
