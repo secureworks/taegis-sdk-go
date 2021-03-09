@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/secureworks/tdr-sdk-go/log"
-	"github.com/secureworks/tdr-sdk-go/log/internal/common"
+	"github.com/secureworks/taegis-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log/internal/common"
 )
 
 func sentryConverter(entry *logrus.Entry, event *sentry.Event, hub *sentry.Hub) {

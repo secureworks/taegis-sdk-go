@@ -3,9 +3,9 @@ package mocks
 import (
 	"context"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/events"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/events"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 )
 
 var _ events.EventsSvc = (*EventsSvc)(nil)

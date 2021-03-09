@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/secureworks/tdr-sdk-go/orchestration/playbooks"
+	"github.com/secureworks/taegis-sdk-go/orchestration/playbooks"
 )
 
 type subscription struct {

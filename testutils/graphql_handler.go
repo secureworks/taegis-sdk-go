@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 )
 
 // MockGraphQLHandler provides a handler to mock a GraphQL server in

@@ -1,9 +1,9 @@
 package connectorLogger
 
 import (
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 )
 
 type Service interface {

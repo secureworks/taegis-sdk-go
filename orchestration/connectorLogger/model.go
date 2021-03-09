@@ -3,7 +3,7 @@ package connectorLogger
 import (
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/common"
 )
 
 // ConnectorLogEntry defines a single log entry

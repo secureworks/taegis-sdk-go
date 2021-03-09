@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gobuffalo/envy"
 	"github.com/hashicorp/go-cleanhttp"

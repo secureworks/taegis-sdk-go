@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/graphql"
-	"github.com/secureworks/tdr-sdk-go/users"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/users"
 	"github.com/davecgh/go-spew/spew"
 )
 

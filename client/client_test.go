@@ -17,8 +17,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/secureworks/tdr-sdk-go/log"
-	_ "github.com/secureworks/tdr-sdk-go/log/logrus"
+	"github.com/secureworks/taegis-sdk-go/log"
+	_ "github.com/secureworks/taegis-sdk-go/log/logrus"
 
 	"github.com/stretchr/testify/assert"
 )

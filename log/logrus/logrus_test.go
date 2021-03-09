@@ -17,7 +17,7 @@ import (
 	"github.com/getsentry/sentry-go"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/secureworks/tdr-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log"
 )
 
 func TestLogrus(t *testing.T) {

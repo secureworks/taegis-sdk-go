@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/log"
-	"github.com/secureworks/tdr-sdk-go/log/middleware"
+	"github.com/secureworks/taegis-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log/middleware"
 )
 
 var (

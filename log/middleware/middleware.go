@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/log"
-	"github.com/secureworks/tdr-sdk-go/log/internal/common"
+	"github.com/secureworks/taegis-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log/internal/common"
 )
 
 type noopClose struct{}

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/log"
 )
 
 // Request is the standard graphql request format to send to an API

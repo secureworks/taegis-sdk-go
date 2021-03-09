@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/secureworks/tdr-sdk-go/orchestration/connectors"
+	"github.com/secureworks/taegis-sdk-go/orchestration/connectors"
 )
 
 type subscription struct {

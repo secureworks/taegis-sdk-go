@@ -1,6 +1,6 @@
 package connectors
 
-import "github.com/secureworks/tdr-sdk-go/common"
+import "github.com/secureworks/taegis-sdk-go/common"
 
 type GetConnectionsInput struct {
 	ConnectionIDs         []string

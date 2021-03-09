@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
 
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 )
 
 var (

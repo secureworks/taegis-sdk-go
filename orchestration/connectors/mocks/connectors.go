@@ -3,10 +3,10 @@ package mocks
 import (
 	"context"
 
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/orchestration/connectors"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/orchestration/connectors"
 )
 
 var _ connectors.Service = (*Service)(nil)

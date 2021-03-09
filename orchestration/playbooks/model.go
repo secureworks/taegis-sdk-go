@@ -3,8 +3,8 @@ package playbooks
 import (
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/orchestration/connectors"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/orchestration/connectors"
 )
 
 type Metadata struct {

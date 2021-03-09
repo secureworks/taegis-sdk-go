@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/client"
 
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 	"github.com/stretchr/testify/require"
 )
 

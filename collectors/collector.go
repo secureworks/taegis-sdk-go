@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 	prometheus "github.com/prometheus/common/model"
 	v1 "k8s.io/api/core/v1"
 )
