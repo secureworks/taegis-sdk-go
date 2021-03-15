@@ -3,8 +3,8 @@
 package assets
 
 import (
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 	"context"
 	"net/http"
 	"time"
@@ -268,7 +268,7 @@ const (
 	AgentTypeEndpointCarbonBlackPsc AgentType = "ENDPOINT_CARBON_BLACK_PSC"
 )
 
-// Describes an Asset in Red Cloak TDR.
+// Describes an Asset in Red Cloak Taegis.
 type Asset struct {
 	ID                 string            `json:"id"`
 	HostId             string            `json:"hostId"`

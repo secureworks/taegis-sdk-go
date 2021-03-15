@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log"
 
 	"github.com/gorilla/websocket"
 	"github.com/pkg/errors"

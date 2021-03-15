@@ -1,7 +1,7 @@
 package connectors
 
 import (
-	"github.com/secureworks/tdr-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/common"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

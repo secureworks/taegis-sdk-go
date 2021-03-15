@@ -3,8 +3,8 @@ package logrus
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/secureworks/tdr-sdk-go/log"
-	"github.com/secureworks/tdr-sdk-go/log/internal/common"
+	"github.com/secureworks/taegis-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log/internal/common"
 )
 
 type errHook struct{}

@@ -9,15 +9,15 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/secureworks/tdr-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log"
 
-	"github.com/secureworks/tdr-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/common"
 
 	"github.com/hashicorp/go-multierror"
 )
 
 //HTTPClient is any client that can perform HTTP requests.
-//It is often but not always github.com/secureworks/tdr-sdk-go/client
+//It is often but not always github.com/secureworks/taegis-sdk-go/client
 type HTTPClient interface {
 	Do(*http.Request) (*http.Response, error)
 	Header() http.Header

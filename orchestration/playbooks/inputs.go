@@ -1,6 +1,6 @@
 package playbooks
 
-import "github.com/secureworks/tdr-sdk-go/common"
+import "github.com/secureworks/taegis-sdk-go/common"
 
 // PlaybookInput defines the mutable fields of a playbook. Modifications the version will create a new version
 type PlaybookInput struct {

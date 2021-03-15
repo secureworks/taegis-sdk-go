@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 	"github.com/stretchr/testify/require"
 )
 

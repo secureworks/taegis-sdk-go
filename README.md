@@ -1,4 +1,4 @@
-# tdr-sdk-go
+# taegis-sdk-go
 
 # Contributing
 * Test coverage must be maintained above 85%

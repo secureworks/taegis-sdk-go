@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/secureworks/tdr-sdk-go/events"
+	"github.com/secureworks/taegis-sdk-go/events"
 )
 
 type subscription struct {

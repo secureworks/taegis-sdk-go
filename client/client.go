@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/log"
 
 	"github.com/hashicorp/go-cleanhttp"
 	"moul.io/http2curl"

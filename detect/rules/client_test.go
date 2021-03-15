@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/graphql"
-	"github.com/secureworks/tdr-sdk-go/testutils"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/testutils"
 )
 
 var (

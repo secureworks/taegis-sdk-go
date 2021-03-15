@@ -6,9 +6,9 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/secureworks/tdr-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/common"
 
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 )
 
 const playbookIDs = "playbookIds"

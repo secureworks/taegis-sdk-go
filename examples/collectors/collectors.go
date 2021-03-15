@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/secureworks/tdr-sdk-go/client"
-	"github.com/secureworks/tdr-sdk-go/collectors"
+	"github.com/secureworks/taegis-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/collectors"
 	"github.com/davecgh/go-spew/spew"
 )
 

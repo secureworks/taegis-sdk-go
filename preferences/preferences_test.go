@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/secureworks/tdr-sdk-go/client"
+	"github.com/secureworks/taegis-sdk-go/client"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 )

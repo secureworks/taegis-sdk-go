@@ -10,7 +10,7 @@ import (
 
 	"github.com/99designs/gqlgen/example/chat"
 	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/secureworks/tdr-sdk-go/graphql"
+	"github.com/secureworks/taegis-sdk-go/graphql"
 	"github.com/stretchr/testify/require"
 )
 

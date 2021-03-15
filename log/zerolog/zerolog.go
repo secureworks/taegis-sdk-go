@@ -10,8 +10,8 @@ import (
 	"github.com/getsentry/sentry-go"
 	"github.com/rs/zerolog"
 
-	"github.com/secureworks/tdr-sdk-go/log"
-	"github.com/secureworks/tdr-sdk-go/log/internal/common"
+	"github.com/secureworks/taegis-sdk-go/log"
+	"github.com/secureworks/taegis-sdk-go/log/internal/common"
 )
 
 func init() {

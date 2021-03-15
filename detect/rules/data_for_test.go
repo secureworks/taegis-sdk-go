@@ -3,8 +3,8 @@ package rules
 import (
 	"time"
 
-	"github.com/secureworks/tdr-sdk-go/common"
-	"github.com/secureworks/tdr-sdk-go/testutils"
+	"github.com/secureworks/taegis-sdk-go/common"
+	"github.com/secureworks/taegis-sdk-go/testutils"
 )
 
 // This file is separate from client_test.go because that file is code generated
