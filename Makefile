@@ -1,6 +1,9 @@
 PACKAGE_DIRS = $(shell go list -f '{{ .Dir }}' ./...)
 PACKAGES = $(shell go list ./...)
 
+secrets:
+	git secrets
+
 flake:
 	go test -short -v ./... -test.failfast -test.count 10
 

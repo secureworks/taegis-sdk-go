@@ -10,6 +10,16 @@
 
 * Circuit Breaking: https://github.com/sony/gobreaker
 
+# Development
+
+1. Install git secrets `brew install git-secrets`
+2. Setup git secrets:
+
+``` 
+git secrets --install
+git secrets --register-aws
+```
+
 # Dependencies
 
 * Sentry - https://github.com/getsentry/sentry-go - BSD-2
