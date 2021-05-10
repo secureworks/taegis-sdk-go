@@ -12,13 +12,8 @@
 
 # Development
 
-1. Install git secrets `brew install git-secrets`
-2. Setup git secrets:
-
-``` 
-git secrets --install
-git secrets --register-aws
-```
+1. Install git secrets `brew install gitleaks`
+2. Check for secrets  `make secrets`
 
 # Dependencies
 

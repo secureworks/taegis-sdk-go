@@ -1,8 +1,11 @@
 PACKAGE_DIRS = $(shell go list -f '{{ .Dir }}' ./...)
 PACKAGES = $(shell go list ./...)
 
+secrets-install:
+	brew install gitleaks
+
 secrets:
-	git secrets
+	gitleaks --path=. -v --repo-config-path=.git-templates/rules.toml
 
 flake:
 	go test -short -v ./... -test.failfast -test.count 10
