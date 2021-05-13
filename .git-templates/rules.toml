@@ -17,7 +17,6 @@ regexes = ['''[github.com]''']
 
 [[rules]]
 description = "diversity and inclusion"
-#regex = '''[Mm]aster|[Ss]lave|[Bb]lacklist|[Ww]hitelist'''
 regex = '''([Mm]aster|[Bb]lacklist|[Ss]lave|[Ww]hitelist)+'''
 tags = ["dni"]
 [rules.allowlist]
