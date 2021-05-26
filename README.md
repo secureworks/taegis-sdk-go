@@ -10,6 +10,12 @@
 
 * Circuit Breaking: https://github.com/sony/gobreaker
 
+# Development
+
+1. Install git secrets `brew install gitleaks`
+2. Install pre-commit `brew install pre-commit`  & `pre-commit install` 
+2. Check for secrets  `make secrets` or commit and the pre-commit hook will install
+
 # Dependencies
 
 * Sentry - https://github.com/getsentry/sentry-go - BSD-2

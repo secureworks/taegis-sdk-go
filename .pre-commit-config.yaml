@@ -1,0 +1,8 @@
+repos:
+-   repo: https://github.com/zricethezav/gitleaks
+    rev: v7.5.0
+    hooks:
+    -   id: gitleaks
+        verbose: true
+        entry: gitleaks --path=. --unstaged -v --repo-config-path=.git-templates/rules.toml
+
